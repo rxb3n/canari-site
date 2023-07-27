@@ -1,0 +1,17 @@
+.hero-container {
+    width: 100vw;
+    height: 80vh;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../assets/thumbnail_image001.jpg);
+    color: white;
+    text-align: center;
+}
+
+.hero-text {
+    position: relative;
+    top: 50%;
+}
