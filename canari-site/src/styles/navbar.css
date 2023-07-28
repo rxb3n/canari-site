@@ -6,9 +6,13 @@
   background-color: transparent;
   color: white;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
   transition: 0.15s;
+}
+
+.logo {
+  margin-left: 1.5rem;
 }
 
 .nav-container p {
@@ -108,20 +112,49 @@
 
 /* RESPONSIVENESS */
 
-  @media screen and (max-width: 850px) {
+.nav-mobile {
+  background-color: var(--highlight-color);
+  z-index: 998;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  transition: 0.2s;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  display: flex;
+}
+
+
+.mobile-element {
+  font-size: 1.75em;
+  text-align: start;
+  transition: 0.2s;
+}
+
+.mobile-element:hover {
+  color: white;
+}
+
+  @media screen and (max-width: 925px) {
 
     .nav-container {
       display: flex;
-      justify-content: space-around;
-    }
-
-    .hamburger-menu {
-      display: block !important;
-      transition: 0.2s
+      justify-content: space-between;
+      height: fit-content;
     }
 
     .nav-elements {
       display: none;
     }
+
+    .hamburger-menu {
+      z-index: 999;
+      display: block !important;
+      margin-right: 1rem;
+    }
+
 
   }
