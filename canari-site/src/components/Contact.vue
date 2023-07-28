@@ -1,6 +1,6 @@
 <template>
     <!-- contact section -->
-	<section class="action-container reset" id="cta-section">
+	<section class="action-container" id="cta-section">
 		<div class="action-text">
 			<h2 class="section-title">REJOIGNEZ-NOUS</h2>
 			<h3 class="section-sub">Saveurs Ouest-Africaines Authentiques</h3>

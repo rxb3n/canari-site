@@ -6,6 +6,7 @@
 @import './styles/footer.css';
 @import './styles/hero.css';
 @import './styles/navbar.css';
+@import './styles/gallery.css';
 :root {
 	/* COLORS */
 	--primary-color: #321c07;
@@ -31,6 +32,10 @@ html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 	
+}
+
+body {
+	font-family: var(--primary-font-family);
 }
 
 a:link{

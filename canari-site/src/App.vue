@@ -4,6 +4,7 @@
     <About></About>
     <Menu></Menu>
     <Contact></Contact>
+    <Gallery></Gallery>
     <Footer></Footer>
 </template>
 
@@ -14,6 +15,7 @@ import Hero from './components/Hero.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 import Menu from './components/Menu.vue';
+import Gallery from './components/Gallery.vue';
 
 
 export default{
