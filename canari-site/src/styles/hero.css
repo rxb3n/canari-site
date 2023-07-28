@@ -24,3 +24,7 @@
   margin-top: 1%;
   font-size: 1.2em;
 }
+
+.font-secondary {
+  font-family: var(--secondary-font-family);
+}

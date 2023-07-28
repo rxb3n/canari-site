@@ -2,16 +2,16 @@
     <section id="nav-section">
         <div class="nav-container" :class="{ 'scrolled': isScrolled }">
             <div class="nav-logo">
-                <a href="#hero-section"><h2 class="nav logo">CANARI</h2></a>
+                <a href="/"><h2 class="nav logo">CANARI</h2></a>
             </div>
             <div class="nav-elements">
-                <a href="/"><p class="nav">Accueil</p></a>
+                <a href="#hero-section"><p class="nav">Accueil</p></a>
                <a href="#about-section"><p class="nav">A propos</p></a>
 
             <div class="menu-dropdown">
                <a href="#menu-section"><p class="dropbtn">Menu</p></a> 
                 <div class="dropdown-content">
-                    <a href="#">MENU COMPLET</a>
+                    <a @click="showModal" href="#menu-section">MENU COMPLET</a>
                 </div>
             </div>
 

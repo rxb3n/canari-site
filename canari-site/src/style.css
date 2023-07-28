@@ -28,6 +28,8 @@
 	--p-big: 1rem 0;
 }
 
+
+
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
@@ -75,4 +77,15 @@ a:link{
 .btn-menu-container {
 	margin-top: 10%;
 	margin-left: 50%;
+}
+
+/* SWIPER STYLE */
+
+.swiper-pagination-bullet-active {
+	background-color:var(--highlight-color) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: var(--highlight-color) !important;
 }
