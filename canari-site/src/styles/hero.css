@@ -28,3 +28,11 @@
 .font-secondary {
   font-family: var(--secondary-font-family);
 }
+
+@media screen and (max-width: 850px) {
+
+  .hero-container {
+    background-size: cover;
+  }
+  
+}

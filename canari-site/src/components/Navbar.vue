@@ -16,7 +16,9 @@
             </div>
 
                 <a href="#cta-section"><p class="nav">Contact</p></a>
+
             </div>
+            <button class="hamburger-menu" id="toggle-menu"><img src="../assets/menu-icon.png" width="40" height="40"></button>
         </div>
     </section>
 </template>
