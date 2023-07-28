@@ -1,3 +1,69 @@
+/* FOOTER STYLE */
 .footer-container {
-    background-color: white;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 8%;
+}
+
+.footer-container p {
+	font-size: 14px;
+}
+
+.footer-socials {
+	margin-top: 5%;
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.menu {
+	display: none;
+}
+
+.footer-right {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.footer-middle {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.hours {
+	padding-right: 7%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footer-left {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.footer-copyright h3 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.hours-dinner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.hours-lunch {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 50%;
 }

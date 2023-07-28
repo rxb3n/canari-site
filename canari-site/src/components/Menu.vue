@@ -1,6 +1,6 @@
 <template>
     <!-- menu section -->
-    <section class="menu-container" id="menu">
+    <section class="menu-container" id="menu-section">
 		<div class="menu-box">
 			<div class="sauces">
 				<h2 class="text-primary">NOS SAUCES (3000 CFA)</h2>

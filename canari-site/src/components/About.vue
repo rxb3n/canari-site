@@ -1,6 +1,6 @@
 <template>
     <!-- about section -->
-	<section class="action-container reset" id="about">
+	<section class="action-container reset" id="about-section">
 		<div class="action-text">
 			<h2 class="section-title">CANARI</h2>
 			<h3 class="section-sub">CUISINE AFRICAINE</h3>

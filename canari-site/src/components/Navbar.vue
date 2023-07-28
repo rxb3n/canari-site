@@ -2,20 +2,20 @@
     <section id="nav-section">
         <div class="nav-container" :class="{ 'scrolled': isScrolled }">
             <div class="nav-logo">
-                <h2 class="nav logo">CANARI</h2>
+                <a href="#hero-section"><h2 class="nav logo">CANARI</h2></a>
             </div>
             <div class="nav-elements">
                 <a href="/"><p class="nav">Accueil</p></a>
-               <a href="/"><p class="nav">A propos</p></a>
+               <a href="#about-section"><p class="nav">A propos</p></a>
 
             <div class="menu-dropdown">
-               <a href="/"><p class="dropbtn">Menu</p></a> 
+               <a href="#menu-section"><p class="dropbtn">Menu</p></a> 
                 <div class="dropdown-content">
                     <a href="#">MENU COMPLET</a>
                 </div>
             </div>
 
-                <a href="/"><p class="nav">Contact</p></a>
+                <a href="#cta-section"><p class="nav">Contact</p></a>
             </div>
         </div>
     </section>
