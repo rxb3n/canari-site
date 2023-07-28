@@ -64,6 +64,22 @@
                         <p class="center-content">Cuisine Africaine</p>
                         <p class="center-content">Ouvert du Lundi au Dimanche</p>
 						<p class="center-content">11h - 23h</p>
+
+						<!-- <div class="accomp-container">
+
+							<div class="accomp-box">
+								<h3 class="text-primary">ACCOMPAGNEMENTS (1000 CFA)</h3>
+								<div class="accomp-items">
+								<p>Foutou</p>
+								<p>Foufou</p>
+								<p>Placali</p>
+								<p>Akassa</p>
+								<p>Kabato</p>
+							</div>
+
+							</div>
+						</div> -->
+
                         </div>
                     
                     <!-- Bouton de fermeture du modal -->

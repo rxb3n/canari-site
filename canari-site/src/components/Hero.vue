@@ -5,9 +5,8 @@
             <h1 class="hero-text-header font-secondary">BIEVENUE A</h1>
             <h1 class="hero-text-header">CANARI</h1>
             <p class="hero-description">
-                Canary est un lieu de rassemblement où la convivialité et l'hospitalité ouest-africaines sont à l'honneur. <br>
-                Nous sommes impatients de vous faire découvrir notre culture à travers chaque bouchée. <br>
-                Bienvenue dans notre monde de délices exquis.<br>
+                Canari est un restaurant qui vous invite à découvrir les saveurs et les couleurs de l’Afrique. <br>
+                Vous pourrez y déguster des plats typiques.
             </p>
         </div>
 

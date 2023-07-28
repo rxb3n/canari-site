@@ -89,3 +89,20 @@ a:link{
 .swiper-button-prev {
 	color: var(--highlight-color) !important;
 }
+
+body {
+	overflow: overlay;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar-track {
+	background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+	background: var(--highlight-color);
+  }
+
+  ::-webkit-scrollbar {
+	width: 0px;
+  }
