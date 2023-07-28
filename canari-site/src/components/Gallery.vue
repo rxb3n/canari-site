@@ -7,6 +7,16 @@
         navigation
         :pagination="{ clickable: true }"
         :scrollbar="{ draggable: true }"
+        :breakpoints="{
+      '950': {
+        slidesPerView: 3,
+        spaceBetween: 0,
+      },
+      '0': {
+        slidesPerView: 1,
+        spaceBetween: 5,
+      }
+    }"
         @swiper="onSwiper"
         @slideChange="onSlideChange"
         >
