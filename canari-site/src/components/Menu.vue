@@ -1,9 +1,9 @@
 <template>
     <!-- menu section -->
-    <section class="menu-container" id="menu-section">
+    <section class="menu-container" id="menu">
 		<div class="menu-box">
 			<div class="sauces">
-				<h2 class="text-primary">NOS SAUCES (3000 CFA)</h2>
+				<h2 class="text-primary space-mar">NOS SAUCES (3000 CFA)</h2>
 				<div class="menu-item">
 					<p class="item-title">Sauce Gombo (Kopè)</p>
 					<p class="text-secondary">

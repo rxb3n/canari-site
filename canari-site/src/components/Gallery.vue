@@ -1,39 +1,28 @@
 <template>
-    <section id="gallery-section">
+    <div class="gallery-container">
         <swiper
         :modules="modules"
         :slides-per-view="3"
-        :space-between="50"
+        :space-between="0"
         navigation
         :pagination="{ clickable: true }"
         :scrollbar="{ draggable: true }"
         @swiper="onSwiper"
         @slideChange="onSlideChange"
         >
-        <div class="gallery">
+        <swiper-slide><img class="gallery-img" src="../assets/thumbnail_image001.jpg"></swiper-slide>
+        <swiper-slide>
+            <video class="gallery-img gallery-video" autoplay muted playsinline loop>
+                <source src="../assets/video-main.mp4" type="video/mp4">
+            </video>
+        </swiper-slide>
+        <swiper-slide><img class="gallery-img" src="../assets/thumbnail_image003.jpg" ></swiper-slide>
+        <swiper-slide><img class="gallery-img" src="../assets/thumbnail_image004.jpg" ></swiper-slide>
 
-            <div class="gallery-img">
-                <swiper-slide>Slide 1</swiper-slide>
-            </div>
-
-            <div class="gallery-img">
-                <swiper-slide>Slide 2</swiper-slide>
-            </div>
-
-            <div class="gallery-img">
-                <swiper-slide>Slide 3</swiper-slide>
-            </div>
-
-        </div>
-
+        ...
         </swiper>
-    </section>
-
-
+    </div>
   </template>
-
-
-
   <script>
     // import Swiper core and required modules
     import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -49,7 +38,6 @@
   
     // Import Swiper styles
     export default {
-    name: 'Gallery',
       components: {
         Swiper,
         SwiperSlide,
@@ -70,7 +58,7 @@
     };
   </script>
 
-
 <style scoped>
-    @import '../style.css';
+@import '../style.css';
+
 </style>

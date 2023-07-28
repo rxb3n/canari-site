@@ -26,7 +26,8 @@ export default{
         Hero,
         Menu,
         Contact,
-        Footer
+        Footer,
+        Gallery
     }
 }
 </script>

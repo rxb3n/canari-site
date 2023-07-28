@@ -33,9 +33,14 @@ a {
 
 .item-title {
 	font-size: 1.25rem;
+	margin: 1rem 0 1.5rem;
 }
 
 .text-secondary {
 	font-size: 1rem;
 	color: grey;
+}
+
+.space-mar{
+	margin-bottom: 3rem;
 }
