@@ -2,7 +2,7 @@
 <section id="hero-section">
     <div class="hero-container">
         <div class="hero-text">
-            <h1 class="hero-text">CANARI</h1>
+            <h1 class="hero-text">BIEVENUE A <br>CANARI</h1>
             <p class="hero-description">
                 Canary est un lieu de rassemblement où la convivialité et l'hospitalité ouest-africaines sont à l'honneur. 
                 Nous sommes impatients de vous faire découvrir notre culture à travers chaque bouchée. 
@@ -17,7 +17,6 @@
 <script>
 export default{
     name: 'Hero',
-    
 }
 </script>
 

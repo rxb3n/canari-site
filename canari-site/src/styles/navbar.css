@@ -2,16 +2,29 @@
   position: fixed;
   width: 100vw;
   top: 0;
-  background-color: var(--highlight-color);
 	z-index: 999;
+  background-color: transparent;
+  color: white;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+  transition: 0.15s;
 }
 
-.bg-color {
-  background-color: #f2cb25;
+.nav-container p {
+  color: white;
 }
+
+
+.nav-container.scrolled {
+  background-color: #f2cb25;
+  color: black;
+}
+
+.nav-container.scrolled p{
+  color: black;
+}
+
 
 
 .nav-elements {
@@ -23,9 +36,9 @@
 }
 
 .nav {
-    color: black;
     font-size: 1.5em;
 }
+
 
 .logo {
   font-size: 2.75em;
@@ -37,8 +50,8 @@
 }
 
 .dropbtn {
-    background-color:var(--highlight-color);
-    color: black;
+    background-color:transparent;
+    color: white;
     font-size: 1.5em;
     border: none;
   }

@@ -1,6 +1,6 @@
 <template>
     <section id="nav-section">
-        <div class="nav-container">
+        <div class="nav-container" :class="{ 'scrolled': isScrolled }">
             <div class="nav-logo">
                 <h2 class="nav logo">CANARI</h2>
             </div>
@@ -22,19 +22,24 @@
 </template>
 
 <script>
-export default{
+export default {
     name: 'Navbar',
-//     data: {
-//     scrollPosition: null
-//   },
-//   methods: {
-//     updateScroll() {
-//       this.scrollPosition = window.scrollY
-//     }
-//   },
-//   mounted() {
-//     window.addEventListener('scroll', this.updateScroll);
-//   }
+  data() {
+    return {
+      isScrolled: false
+    }
+  },
+  created() {
+    window.addEventListener('scroll', this.onScroll);
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.onScroll);
+  },
+  methods: {
+    onScroll(event) {
+      this.isScrolled = window.scrollY > 0;
+    }
+  }
 }
 </script>
 
