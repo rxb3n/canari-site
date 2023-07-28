@@ -3,6 +3,9 @@
 @import './styles/about.css';
 @import './styles/menu.css';
 @import './styles/modal.css';
+@import './styles/footer.css';
+@import './styles/hero.css';
+@import './styles/navbar.css';
 :root {
 	/* COLORS */
 	--primary-color: #321c07;

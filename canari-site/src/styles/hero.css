@@ -16,3 +16,12 @@
     position: relative;
     top: 50%;
 }
+
+.hero-text-header {
+  font-size: 2.25em;
+}
+
+.hero-description {
+  margin-top: 1%;
+  font-size: 1.2em;
+}

@@ -44,5 +44,5 @@ export default {
 </script>
 
 <style scoped>
-@import '../styles/navbar.css';
+@import '../style.css';
 </style>

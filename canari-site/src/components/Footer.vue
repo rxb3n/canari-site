@@ -86,6 +86,5 @@
 
 
 <style scoped>
-@import '../styles/footer.css';
-
+@import '../style.css';
 </style>
